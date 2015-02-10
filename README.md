@@ -1,6 +1,6 @@
 # wytorproxy
 wyscan tor proxy lib &amp; help doc <br />
-(当你需要更多的IP，防止服务被屏蔽)
+(当你需要更多的IP，防止服务被屏蔽，写一个tor的控制脚本，就能每分钟刷新一下tor洋葱池的IP)
 
 安装配置tor & privoxy
 -----------------------------------
