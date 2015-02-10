@@ -1,5 +1,6 @@
 # wytorproxy
-wyscan tor proxy lib &amp; help doc (需要更多的IP，防止屏蔽)
+wyscan tor proxy lib &amp; help doc <br />
+(当你需要更多的IP，防止服务被屏蔽)
 
 安装配置tor & privoxy
 -----------------------------------
@@ -24,8 +25,7 @@ wyscan tor proxy lib &amp; help doc (需要更多的IP，防止屏蔽)
 > 127.0.0.1:8118
 > 此时127.0.0.1的8118端口就介入tor的网络，享用匿名IP服务了
 
-### 使用iptables做NAT转换，映射到外网IP上供更多的服务器使用
-(如果你想在外网使用的话，下面是实现方法)
+### 使用iptables做NAT转换，映射到外网IP上供更多的服务器使用(如果你想在外网使用的话，下面是实现方法)
     sed -i '/net.ipv4.ip_forward/ s/\(.*= \).*/\11/' /etc/sysctl.conf
     sysctl -p
     iptables -t nat -A PREROUTING -p tcp -i eth0 --dport 8778 -j DNAT --to 127.0.0.1:8118
