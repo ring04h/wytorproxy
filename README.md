@@ -13,7 +13,7 @@ wyscan tor proxy lib &amp; help doc <br />
     /* 后台启动 */
     nohup tor &
 
-### 安装 privoxy
+### 安装 privoxy 并配置与tor连接
     yum -y install privoxy
     /* 配置privoxy连接tor路由 */
     echo 'forward-socks5 / 127.0.0.1:9050 .' >> /etc/privoxy/config
