@@ -2,8 +2,8 @@
 wyscan tor proxy lib &amp; help doc <br />
 (当你需要更多的IP，防止服务被屏蔽，写一个tor的控制脚本，就能每分钟刷新一下tor洋葱池的IP)
 # 使用实例
-    [root@10-8-11-221 wytorproxy]# python wytorproxy.py 
-    {"code":0,"data":{"country":"美国","country_id":"US","area":"","area_id":"","region":"","region_id":"","city":"","city_id":"","county":"","county_id":"","isp":"","isp_id":"","ip":"96.47.226.20"}}
+> [root@10-8-11-221 wytorproxy]# python wytorproxy.py 
+> {"code":0,"data":{"country":"美国","country_id":"US","area":"","area_id":"","region":"","region_id":"","city":"","city_id":"","county":"","county_id":"","isp":"","isp_id":"","ip":"96.47.226.20"}}
     
 安装配置tor & privoxy
 -----------------------------------
